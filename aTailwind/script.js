@@ -56,3 +56,21 @@ const add2 = curriedSum(2)
 const add3 = add2(3)
  const add5 = add3(5)
  console.log(add5)
+
+//  tiigsi week3 day1 part 3
+
+
+const khudaar= ["canbe " , "muus" ,"cinab"];
+// pop
+console.log(khudaar);
+khudaar.pop();
+console.log(khudaar);
+khudaar.push("bighead")
+console.log(khudaar)
+khudaar.shift
+console.log(khudaar)
+khudaar.unshift("caadil")
+console.log(khudaar)
+khudaar.splice(0,1,2,);
+console.log(khudaar)
+
