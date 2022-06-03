@@ -16,3 +16,9 @@
 
 // console.log(count)
 
+let welcomEL = document.getElementById("welcome-el")
+
+let name = "hamiid apdi  "
+let greeting = "  welcome back  "
+
+welcomEL.innerText = greeting + name
