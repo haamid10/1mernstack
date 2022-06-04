@@ -1,6 +1,10 @@
 // alert("ssss")
+document.getElementById("saveEl")
 document.getElementById("qaybta")
 let count = 0
+
+console.log(saveEl)
+
 function increment() {
   count += 1
   qaybta.innerText = count
@@ -9,9 +13,11 @@ function increment() {
 
 
 function save() {
+  let coountStr= count + " _ "
+
+  saveEl.innerText += coountStr;
   console.log(count)
 }
-
 
 
 
