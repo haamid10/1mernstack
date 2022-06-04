@@ -13,10 +13,10 @@ function increment() {
 
 
 function save() {
-  let coountStr= count + " _ "
+  let countStr= count + " _ "
 
-  saveEl.innerText += coountStr;
-  console.log(count)
+  saveEl.textContent += countStr;
+  console.log( count)
 }
 
 
