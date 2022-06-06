@@ -19,21 +19,47 @@ function save() {
   console.log( count)
 }
 
+// 
 
 
 
 
+let mane= "linda"
+let aname= "hi there"
+
+function Ham(){
+console.log(aname + "'" + mane + "!")
+}
+
+
+Ham()
 
 
 
+let num1= 3
+let num2= 34
+
+function sum(){
+console.log(num1+num2)
+  
+}
+
+sum()
+
+function add3Pionts(){
+  num1 += 3
+}
+ function remove1Piont(){
+   num1 -= 1
+ }
+add3Pionts()
+add3Pionts()
+add3Pionts()
+remove1Piont()
+remove1Piont()
 
 
-
-
-
-
-
-
+console.log(num1)
 
 
 
