@@ -18,6 +18,38 @@ function save() {
   saveEl.textContent += countStr;
   console.log( count)
 }
+// purchase
+
+let errorParagraph=document.getElementById("error")
+console.log(errorParagraph)
+
+function purchase(){
+  console.log("clicked")
+  errorParagraph.textContent="something went wrong please try again"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // 
 

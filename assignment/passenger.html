@@ -7,9 +7,11 @@
   <title>Document</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class=" bg-blue-300 font-sans m-28 p-32" >
-  <div class=" bg-gray-50 rounded-xl m-12 px-32 py-12 opacity-80 inline-block">
-  <h1 class="font-sans font-bold text-xl">peaple entered</h1>
+<body class=" bg-blue-300 font-sans m-12 p-8 " >
+  <div class=" bg-gray-50 rounded-xl m-12 px-12 py-6 opacity-80 grid md:w-full">
+ <div class=" flex flex-col items-center justify-center">
+
+  <h1 class=" font-sans font-bold text-xl">peaple entered</h1>
   <h2 class="font-sans font-bold text-6xl mx-16 my-12" id="qaybta">0</h2>
 
   <p id="welcome-el"></p>
@@ -20,8 +22,19 @@
   <button id="icrement" class=" bg-green-600  w-28 py-1 px-3 m-2 text-white font-bold rounded-lg" 
   onclick="save()" >Save</button>
   <p id="saveEl" onclick="save()" class=" font-sans text-lg mt-12 p-2 font-bold">previous intires : </p>
-  <p></p>
-<h1>sxjs</h1>
+
+ </div>
+
+<div class="flex flex-col items-center mt-12">
+  <img class=" w-auto h-80  rounded-xl bg-red-300" src="../aTailwind/1images/pb.jpg" alt="">
+  
+  <h1 class="font-sans font-bold mt-6 p-2 text-lg capitalize">nike shoes</h1>
+ 
+  <button onclick="purchase()" class=" border-black rounded-lg p-1 font-sans font-bold text-lg mt-4 border-2"> purchase-$149</button>
+
+  <p id="error" class=" text-lg font-light text-red-500"></p>
+
+</div>
 </div>
 
   <script src="passenger.js"></script>
