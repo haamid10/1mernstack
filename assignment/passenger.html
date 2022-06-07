@@ -8,7 +8,9 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class=" bg-blue-300 font-sans m-12 p-8 " >
+  
   <div class=" bg-gray-50 rounded-xl m-12 px-12 py-6 opacity-80 grid md:w-full">
+    <h1 class=" border-b-2 border-gray-900 grid w-full items-center justify-center p-2 mb-12 text-3xl font-sans font-bold text-red-500 capitalize">passenger counter </h1>
  <div class=" flex flex-col items-center justify-center">
 
   <h1 class=" font-sans font-bold text-xl">peaple entered</h1>
@@ -26,6 +28,7 @@
  </div>
 
 <div class="flex flex-col items-center mt-12">
+  <h1 class=" border-b-2 border-gray-900 grid w-full items-center justify-center p-2 mb-12 text-3xl font-sans font-bold text-red-500 capitalize">Rendering Error</h1>
   <img class=" w-auto h-80  rounded-xl bg-red-300" src="../aTailwind/1images/pb.jpg" alt="">
   
   <h1 class="font-sans font-bold mt-6 p-2 text-lg capitalize">nike shoes</h1>
@@ -35,7 +38,27 @@
   <p id="error" class=" text-lg font-light text-red-500"></p>
 
 </div>
+<!-- callculettor -->
+<div class="mt-20 flex items-center justify-center  ">
+
+ 
+
+
+  <span class="flex flex-col items-center justify-center p-12 mr-12 gap-28" id="num1-El"></span>
+<span id="num2-El"></span>
 </div>
+
+<div class="flex  mt-24 flex-row  gap-12 items-center justify-center">
+  <button class="bg-green-500 rounded-lg p-2" onclick="Add()">Add</button>
+<button class="bg-indigo-500 rounded-lg p-2" onclick="div()">Divide</button>
+<button class="bg-blue-500 rounded-lg p-2"onclick="mult()">Multiply</button>
+<button class="bg-red-500 rounded-lg p-2"onclick="sub()">Subtract</button> <br>
+</div>
+<h3 class="font-bold flex flex-col items-center justify-center  mt-12 ">result:</h3>
+<span class="flex flex-col items-center justify-center ml-32 relative " id="sum-el">result</span>
+
+</div>
+
 
   <script src="passenger.js"></script>
   

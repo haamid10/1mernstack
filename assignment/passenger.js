@@ -30,10 +30,39 @@ function purchase(){
 
 
 
+// callculator
 
+let num1=8
+let num2=3
 
+document.getElementById("num1-El").textContent=num1
+document.getElementById("num2-El").textContent=num2
 
+let semEl= document.getElementById("sum-el")
 
+function Add(){
+  semEl.textContent = num1+num2
+
+  console.log(semEl)
+}
+
+function sub(){
+  semEl.textContent = num1-num2
+
+  console.log(semEl)
+}
+
+function mult(){
+  semEl.textContent = num1*num2
+
+  console.log(semEl)
+}
+
+function div(){
+  semEl.textContent = num1/num2
+
+  console.log(semEl)
+}
 
 
 
@@ -56,42 +85,42 @@ function purchase(){
 
 
 
-let mane= "linda"
-let aname= "hi there"
+// let mane= "linda"
+// let aname= "hi there"
 
-function Ham(){
-console.log(aname + "'" + mane + "!")
-}
-
-
-Ham()
+// function Ham(){
+// console.log(aname + "'" + mane + "!")
+// }
 
 
+// Ham()
 
-let num1= 3
-let num2= 34
 
-function sum(){
-console.log(num1+num2)
+
+// let num1= 3
+// let num2= 34
+
+// function sum(){
+// console.log(num1+num2)
   
-}
+// }
 
-sum()
+// sum()
 
-function add3Pionts(){
-  num1 += 3
-}
- function remove1Piont(){
-   num1 -= 1
- }
-add3Pionts()
-add3Pionts()
-add3Pionts()
-remove1Piont()
-remove1Piont()
+// function add3Pionts(){
+//   num1 += 3
+// }
+//  function remove1Piont(){
+//    num1 -= 1
+//  }
+// add3Pionts()
+// add3Pionts()
+// add3Pionts()
+// remove1Piont()
+// remove1Piont()
 
 
-console.log(num1)
+// console.log(num1)
 
 
 
