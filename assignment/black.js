@@ -19,7 +19,7 @@ message="You're out of the game! 😭 "
 console.log(message)
 
 // cash out your many!!
-console.log(hasBlackJack)
+
 
 
 
