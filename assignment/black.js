@@ -1,32 +1,45 @@
 let firstCard=9
 let SecondCard=12
-let sum = firstCard + SecondCard -2
+let cards =[firstCard,SecondCard]
+let sum = firstCard + SecondCard -6
 let hasBlackJack= false
 let isLive= true
 let message = ""
-document.getElementById("message")
+let massEl = document.getElementById("mess")
+console.log(massEl)
+let sumEl=document.getElementById("sum")
+let cards=document.getElementById("card")
+
+
+
 function startGame(){
+  renderGame()
+}
+function renderGame(){
+  sumEl.textContent= "sum : " + sum
+  cards.textContent= "card  : " + cards[0] + " , " + cards[1]
 if(sum <= 20){
 message="DO you want to draw a new card? 😊"
-mee.textContent =message
-console.log("message")
 } else if (sum === 21){
 message= "whooo! You've got blackjack! 🤩 "
-mee.textContent =message
-console.log("message")
   hasBlackJack=true
 }else if(sum > 21){
 message="You're out of the game! 😭 "
-mee.textContent =message
-console.log("message")
-
   isLive = false
 }
 
+massEl.textContent= message
 // login out
 
 // cash out your many!!
 
+}
+function newCard(){
+  console.log("Drawing new carD") 
+  let newcard = 6
+  sum += newcard
+
+  renderGame()
 }
 
 
