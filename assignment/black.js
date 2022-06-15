@@ -1,6 +1,6 @@
 let firstCard=9
 let SecondCard=12
-let cards =[firstCard,SecondCard]
+let card =[firstCard,SecondCard]
 let sum = firstCard + SecondCard -6
 let hasBlackJack= false
 let isLive= true
@@ -8,7 +8,7 @@ let message = ""
 let massEl = document.getElementById("mess")
 console.log(massEl)
 let sumEl=document.getElementById("sum")
-let cards=document.getElementById("card")
+let cards =document.getElementById("card")
 
 
 
@@ -17,7 +17,7 @@ function startGame(){
 }
 function renderGame(){
   sumEl.textContent= "sum : " + sum
-  cards.textContent= "card  : " + cards[0] + " , " + cards[1]
+  cards.textContent= "card  : " + card[0] + " , " + card[1]
 if(sum <= 20){
 message="DO you want to draw a new card? 😊"
 } else if (sum === 21){
@@ -64,6 +64,8 @@ function newCard(){
 
 
 
+
+
 // PREDICTIONS OF NUMBERS
 
 // console.log(23 === 3 )
@@ -71,3 +73,29 @@ function newCard(){
 // console.log(23 <=3 )
 // console.log(23 <3 )
 // console.log(23 <=23 )
+
+
+// array
+
+let messages=[
+  "hey, how is it going",
+  "I'm great , thank you! how about you?",
+  "All good, Been working on my portfolio lately"
+]
+
+let NewMessage ="Same here"
+
+messages.push(NewMessage)
+
+
+console.log(messages)
+
+
+let sdarc = [4,5]
+
+console.log(sdarc)
+
+ sdarc.push(7)
+
+ console.log(sdarc)
+
