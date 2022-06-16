@@ -17,7 +17,7 @@ function startGame(){
 }
 function renderGame(){
   sumEl.textContent= "sum : " + sum
-  cards.textContent= "card  : " + card[0] + " , " + card[1]
+  cards.textContent= "card  : " + card[0] + " , " + card[1] +  " , " + card[2]
 if(sum <= 20){
 message="DO you want to draw a new card? 😊"
 } else if (sum === 21){
@@ -36,9 +36,12 @@ massEl.textContent= message
 }
 function newCard(){
   console.log("Drawing new carD") 
-  let newcard = 6
-  sum += newcard
+  let Bird = 6
+  
 
+  sum += Bird 
+  card.push(Bird)
+  console.log(card)
   renderGame()
 }
 
@@ -77,25 +80,35 @@ function newCard(){
 
 // array
 
-let messages=[
-  "hey, how is it going",
-  "I'm great , thank you! how about you?",
-  "All good, Been working on my portfolio lately"
-]
+// let messages=[
+//   "hey, how is it going",
+//   "I'm great , thank you! how about you?",
+//   "All good, Been working on my portfolio lately"
+// ]
 
-let NewMessage ="Same here"
+// let NewMessage ="Same here"
 
-messages.push(NewMessage)
-
-
-console.log(messages)
+// messages.push(NewMessage)
 
 
-let sdarc = [4,5]
+// console.log(messages)
 
-console.log(sdarc)
 
- sdarc.push(7)
+// let sdarc = [4,5]
 
- console.log(sdarc)
+// console.log(sdarc)
+
+//  sdarc.push(7)
+
+//  console.log(sdarc)
+
+
+
+// counting
+for (let count =1; count<11 ;count+=1){
+  console.log(count)
+}
+
+console.log(count)
+
 
