@@ -80,14 +80,14 @@ function newCard(){
 
 // array
 
-let messages=[
-  "hey, how is it going",
-  "I'm great , thank you! how about you?",
-  "All good, Been working on my portfolio lately"
-]
-for (let i=0; i< messages.length; i++){
-console.log(messages[i])
-}
+// let messages=[
+//   "hey, how is it going",
+//   "I'm great , thank you! how about you?",
+//   "All good, Been working on my portfolio lately"
+// ]
+// for (let i=0; i< messages.length; i++){
+// console.log(messages[i])
+// }
 // let NewMessage ="Same here"
 
 // messages.push(NewMessage)
@@ -117,3 +117,12 @@ console.log(messages[i])
 // for (let count=2; count <100; count += 1){
 //   console.log(count)
 // }
+
+
+let sentence= ["Hello" , "my", "name "  , "is", "hamiid "]
+let great = document.getElementById("greatingEl")
+
+for( let i = 0; i < sentence.length; i++){
+  great.textContent += sentence[i]  + " "
+  console.log(sentence[i])
+}
