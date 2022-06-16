@@ -80,12 +80,14 @@ function newCard(){
 
 // array
 
-// let messages=[
-//   "hey, how is it going",
-//   "I'm great , thank you! how about you?",
-//   "All good, Been working on my portfolio lately"
-// ]
-
+let messages=[
+  "hey, how is it going",
+  "I'm great , thank you! how about you?",
+  "All good, Been working on my portfolio lately"
+]
+for (let i=0; i< messages.length; i++){
+console.log(messages[i])
+}
 // let NewMessage ="Same here"
 
 // messages.push(NewMessage)
@@ -101,14 +103,17 @@ function newCard(){
 //  sdarc.push(7)
 
 //  console.log(sdarc)
+// counting and loops
 
 
 
-// counting
-for (let count =1; count<11 ;count+=1){
-  console.log(count)
-}
+// for (let count =1; count<11 ;count+=1){
+//   console.log(count)
+// }
 
-console.log(count)
+// console.log(count)
 
 
+// for (let count=2; count <100; count += 1){
+//   console.log(count)
+// }
