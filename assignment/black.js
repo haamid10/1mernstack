@@ -1,7 +1,7 @@
-let firstCard=9
-let SecondCard=12
+let firstCard= getRandomCard()
+let SecondCard= getRandomCard()
 let card =[firstCard,SecondCard]
-let sum = firstCard + SecondCard -6
+let sum = firstCard + SecondCard 
 let hasBlackJack= false
 let isLive= true
 let message = ""
@@ -11,10 +11,15 @@ let sumEl=document.getElementById("sum")
 let cards =document.getElementById("card")
 
 
+function getRandomCard(){
+
+}
 
 function startGame(){
   renderGame()
 }
+
+
 function renderGame(){
   sumEl.textContent= "sum : " + sum
   cards.textContent= "card  : "
@@ -39,7 +44,7 @@ massEl.textContent= message
 }
 function newCard(){
   console.log("Drawing new carD") 
-  let Bird = 6
+  let Bird = getRandomCard()
   
 
   sum += Bird 
@@ -122,10 +127,36 @@ function newCard(){
 // }
 
 
-let sentence= ["Hello" , "my", "name "  , "is", "hamiid "]
-let great = document.getElementById("greatingEl")
+// let sentence= ["Hello" , "my", "name "  , "is", "hamiid "]
+// let great = document.getElementById("greatingEl")
 
-for( let i = 0; i < sentence.length; i++){
-  great.textContent += sentence[i]  + " "
-  console.log(sentence[i])
+// for( let i = 0; i < sentence.length; i++){
+//   great.textContent += sentence[i]  + " "
+//   console.log(sentence[i])
+// }
+
+
+let player1time =102
+let player2time =104
+
+function getFastestRaceTime(){
+  if (player1time < player2time){
+    return player1time
+  } else if (player2time < player1time){
+    return player2time
+  }
+else {
+  return player1time
 }
+}
+let fastestRace = getFastestRaceTime()
+
+console.log(fastestRace)
+
+function getTotalRaceTime(){
+  return player1time + player2time
+}
+
+let totalTime = getTotalRaceTime()
+
+console.log(totalTime)
