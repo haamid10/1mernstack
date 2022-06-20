@@ -13,6 +13,7 @@ let cards =document.getElementById("card")
 
 function getRandomCard(){
 
+  return 5;
 }
 
 function startGame(){
@@ -135,28 +136,41 @@ function newCard(){
 //   console.log(sentence[i])
 // }
 
+// returning value and variebles
+// let player1time =102
+// let player2time =104
 
-let player1time =102
-let player2time =104
+// function getFastestRaceTime(){
+//   if (player1time < player2time){
+//     return player1time
+//   } else if (player2time < player1time){
+//     return player2time
+//   }
+// else {
+//   return player1time
+// }
+// }
+// let fastestRace = getFastestRaceTime()
 
-function getFastestRaceTime(){
-  if (player1time < player2time){
-    return player1time
-  } else if (player2time < player1time){
-    return player2time
-  }
-else {
-  return player1time
-}
-}
-let fastestRace = getFastestRaceTime()
+// console.log(fastestRace)
 
-console.log(fastestRace)
+// function getTotalRaceTime(){
+//   return player1time + player2time
+// }
 
-function getTotalRaceTime(){
-  return player1time + player2time
-}
+// let totalTime = getTotalRaceTime()
 
-let totalTime = getTotalRaceTime()
+// console.log(totalTime)
 
-console.log(totalTime)
+// math
+
+// let RandomNumber = Math.random() *6
+
+// console.log(RandomNumber )
+
+let FloorNumber = Math.floor(Math.random() *6)
+ console.log(FloorNumber )
+
+
+ from = 0
+ to = 5
