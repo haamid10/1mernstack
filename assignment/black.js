@@ -168,9 +168,14 @@ function newCard(){
 
 // console.log(RandomNumber )
 
-let FloorNumber = Math.floor(Math.random() *6)
- console.log(FloorNumber )
+// let FloorNumber = Math.floor(Math.random() *6) +1
+//  console.log(FloorNumber )
 
+ function rollDice(){
+   let FloorNumber= Math.floor(Math.random() *6) +1
 
- from = 0
- to = 5
+   return FloorNumber
+
+ }
+
+console.log( rollDice())
