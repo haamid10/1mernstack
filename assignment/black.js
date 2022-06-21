@@ -63,13 +63,17 @@ massEl.textContent= message
 }
 function newCard(){
   console.log("Drawing new carD") 
-  let Bird = getRandomCard()
+  
+  if( isLive === true && hasBlackJack === false){
+    let Bird = getRandomCard()
+    sum += Bird 
+    card.push(Bird)
+    console.log(card)
+    renderGame()}
+  
   
 
-  sum += Bird 
-  card.push(Bird)
-  console.log(card)
-  renderGame()
+ 
 }
 
 
@@ -204,8 +208,8 @@ function newCard(){
 
 // boilerplate code
 
-let hasComplitedCourse = false
-let givesCertificate = true
+// let hasComplitedCourse = false
+// let givesCertificate = true
 
 // if( hasComplitedCourse === false || givesCertificate === false ){
 //   generateCertificate()
@@ -215,11 +219,11 @@ let givesCertificate = true
 //   console.log("certificate generating...................")
 // }
 
-if(hasComplitedCourse === false || givesCertificate === false)
-{
-  reccommendMovie()
-}
-function reccommendMovie(){
+// if(hasComplitedCourse === false || givesCertificate === false)
+// {
+//   reccommendMovie()
+// }
+// function reccommendMovie(){
 
-  console.log("hey, check out this new film we think you will like")
-}
+//   console.log("hey, check out this new film we think you will like")
+// }
