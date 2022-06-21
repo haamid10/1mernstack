@@ -202,15 +202,24 @@ function newCard(){
 
 
 
-// bioler palate code
+// boilerplate code
 
 let hasComplitedCourse = false
 let givesCertificate = true
 
-if( hasComplitedCourse === false || givesCertificate === false ){
-  generateCertificate()
-}
+// if( hasComplitedCourse === false || givesCertificate === false ){
+//   generateCertificate()
+// }
 
-function generateCertificate(){
-  console.log("certificate generating...................")
+// function generateCertificate(){
+//   console.log("certificate generating...................")
+// }
+
+if(hasComplitedCourse === false || givesCertificate === false)
+{
+  reccommendMovie()
+}
+function reccommendMovie(){
+
+  console.log("hey, check out this new film we think you will like")
 }
