@@ -13,7 +13,9 @@ let cards =document.getElementById("card")
 
 function getRandomCard(){
 
-  return 5;
+  let randomCard = Math.floor(Math.random()*12)+1
+
+  return randomCard;
 }
 
 function startGame(){
@@ -171,11 +173,13 @@ function newCard(){
 // let FloorNumber = Math.floor(Math.random() *6) +1
 //  console.log(FloorNumber )
 
- function rollDice(){
-   let FloorNumber= Math.floor(Math.random() *6) +1
+// dice function
 
-   return FloorNumber
+//  function rollDice(){
+//    let FloorNumber= Math.floor(Math.random() *6) +1
 
- }
+//    return FloorNumber
 
-console.log( rollDice())
+//  }
+
+// console.log( rollDice())
