@@ -199,3 +199,18 @@ function newCard(){
 //  }
 
 // console.log( rollDice())
+
+
+
+// bioler palate code
+
+let hasComplitedCourse = false
+let givesCertificate = true
+
+if( hasComplitedCourse === false || givesCertificate === false ){
+  generateCertificate()
+}
+
+function generateCertificate(){
+  console.log("certificate generating...................")
+}
