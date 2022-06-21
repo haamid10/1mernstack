@@ -13,7 +13,16 @@ let cards =document.getElementById("card")
 
 function getRandomCard(){
 
-  let randomCard = Math.floor(Math.random()*12)+1
+  let randomCard = Math.floor(Math.random()*13)+1
+  if (randomCard >10 ){
+    return 10
+  } else if (randomCard ===10 ){
+    return 11
+  }else{
+    return randomCard
+  }
+  
+
 
   return randomCard;
 }
