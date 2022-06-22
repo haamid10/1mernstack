@@ -10,7 +10,19 @@ console.log(massEl)
 let sumEl=document.getElementById("sum")
 let cards =document.getElementById("card")
 
-console.log(card)
+let player = {
+  name: "per",
+  chips: "145"
+}
+
+
+
+let playerEl = document.getElementById("playerEL")
+
+playerEl.textContent = player.name + ": $ " + player.chips
+
+
+
 
 function getRandomCard(){
 
