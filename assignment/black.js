@@ -96,21 +96,21 @@ function newCard(){
 
 
 
-let Airbnb = {
-  title : "Learn Css Grid for free",
-  lesson : 24,
-  creator : "per Harald borgan",
-  length :63
-}
+// let Airbnb = {
+//   title : "Learn Css Grid for free",
+//   lesson : 24,
+//   creator : "per Harald borgan",
+//   length :63
+// }
 
-let head = document.getElementById("heed")
-let fr = document.getElementById("fre")
+// let head = document.getElementById("heed")
+// let fr = document.getElementById("fre")
 
-heed.textContent = Airbnb.title
-fre.textContent = Airbnb.creator
+// heed.textContent = Airbnb.title
+// fre.textContent = Airbnb.creator
 
 
-console.log(Airbnb.title)
+// console.log(Airbnb.title)
 
 
 
@@ -252,3 +252,30 @@ console.log(Airbnb.title)
 
 //   console.log("hey, check out this new film we think you will like")
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+// practice sessions
+
+let person = {
+  name: "hamiid apdi",
+  age : 22,
+  country : "somaliland"
+}
+
+function logData(){
+  let hamaan = person.name + " is " + person.age + "years old lives in " + person.country
+
+console.log (hamaan)
+}
+
+logData()
