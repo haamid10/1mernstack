@@ -96,7 +96,7 @@ function newCard(){
 
 
 
-let course = {
+let Airbnb = {
   title : "Learn Css Grid for free",
   lesson : 24,
   creator : "per Harald borgan",
@@ -106,11 +106,11 @@ let course = {
 let head = document.getElementById("heed")
 let fr = document.getElementById("fre")
 
-heed.textContent = course.title
-fre.textContent = course.creator
+heed.textContent = Airbnb.title
+fre.textContent = Airbnb.creator
 
 
-console.log(course.title)
+console.log(Airbnb.title)
 
 
 
