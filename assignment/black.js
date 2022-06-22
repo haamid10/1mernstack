@@ -19,7 +19,7 @@ let player = {
 
 let playerEl = document.getElementById("playerEL")
 
-playerEl.textContent = player.name + ": $ " + player.chips
+// playerEl.textContent = player.name + ": $ " + player.chips
 
 
 
@@ -96,8 +96,21 @@ function newCard(){
 
 
 
+let course = {
+  title : "Learn Css Grid for free",
+  lesson : 24,
+  creator : "per Harald borgan",
+  length :63
+}
+
+let head = document.getElementById("heed")
+let fr = document.getElementById("fre")
+
+heed.textContent = course.title
+fre.textContent = course.creator
 
 
+console.log(course.title)
 
 
 
