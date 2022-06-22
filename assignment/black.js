@@ -1,3 +1,5 @@
+
+
 let firstCard= getRandomCard()
 let SecondCard= getRandomCard()
 let card =[]
@@ -344,22 +346,25 @@ function newCard(){
 
 let fruits = ["🍎", "🍏", "🍎", "🍏", "🍎"]
 
-let head = document.getElementById("heed")
+let head = document.getElementById("heeder")
 let fr = document.getElementById("fre")
 
 
-function apples (){
+function apples ()
+{
 
-  for(let i = 0; i < fruits.length; i++){
-    if( fruits[i]=== "🍏"){
+  for(let i = 0; i < fruits.length; i++)
+  {
+        
+         if(fruits[i] === "🍎"){
+             heeder.textContent += "🍎"
 
-      Heed.textContent += "🍏"
-    }else if(fruits[i] === "🍎"){
-      fre.textContent += "🍎"
-
-    }
-    
+            } else if(fruits[i] === "🍏"){
+              free.textContent += "🍏"
+            }
+   
   }
+  console.log(fruits[i])
 }
 
 apples()
