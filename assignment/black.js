@@ -299,3 +299,24 @@ if (age < 6){
   
 }
 
+// loops and array
+
+let largeCountries = ["chine", "india","united states" , "indonisia" , "pakistaan"]
+largeCountries.push("tuvalu")
+largeCountries.pop("tuvalu")
+
+largeCountries.unshift("monaco")
+largeCountries.shift("monaco")
+
+
+console.log(largeCountries)
+
+
+
+
+for( let i = 0; i < largeCountries.length; i++){
+  console.log(largeCountries[i])
+}
+
+push("tuvalu")
+
