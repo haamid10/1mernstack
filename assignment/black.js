@@ -266,38 +266,38 @@ function newCard(){
 
 // practice sessions
 
-let person = {
-  name: "hamiid apdi",
-  age : 22,
-  country : "somaliland"
-}
+// let person = {
+//   name: "hamiid apdi",
+//   age : 22,
+//   country : "somaliland"
+// }
 
-function logData(){
-  let hamaan = person.name + " is " + person.age + "years old lives in " + person.country
+// function logData(){
+//   let hamaan = person.name + " is " + person.age + "years old lives in " + person.country
 
-console.log (hamaan)
-}
+// console.log (hamaan)
+// }
 
-logData()
+// logData()
 
-// if else
+// // if else
 
-let age = 16
-if (age < 6){
-  console.log("free")
-} else if(age <=  18){
-  console.log("children discount")
-}else if( age <= 27 ){
-  console.log("student discount")
+// let age = 16
+// if (age < 6){
+//   console.log("free")
+// } else if(age <=  18){
+//   console.log("children discount")
+// }else if( age <= 27 ){
+//   console.log("student discount")
 
-}else if(age <= 67 ) {
-  console.log("full price")
+// }else if(age <= 67 ) {
+//   console.log("full price")
   
 
-}else{
-  console.log("Senior citizen discount")
+// }else{
+//   console.log("Senior citizen discount")
   
-}
+// }
 
 // loops and array
 
@@ -330,13 +330,36 @@ if (age < 6){
 
 // random
 
-let largeCountries = ["chine", "india","united states" , "indonisia" , "pakistaan"]
+// let largeCountries = ["chine", "india","united states" , "indonisia" , "pakistaan"]
 
 
-function dayss(){
+// function dayss(){
 
-  let randomDayss= Math.floor(Math.random() * 4)
-  return largeCountries[randomDayss]
+//   let randomDayss= Math.floor(Math.random() * 4)
+//   return largeCountries[randomDayss]
+// }
+
+// console.log(dayss())
+
+
+let fruits = ["🍎", "🍏", "🍎", "🍏", "🍎"]
+
+let head = document.getElementById("heed")
+let fr = document.getElementById("fre")
+
+
+function apples (){
+
+  for(let i = 0; i < fruits.length; i++){
+    if( fruits[i]=== "🍏"){
+
+      Heed.textContent += "🍏"
+    }else if(fruits[i] === "🍎"){
+      fre.textContent += "🍎"
+
+    }
+    
+  }
 }
 
-console.log(dayss())
+apples()
