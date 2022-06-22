@@ -318,5 +318,11 @@ for( let i = 0; i < largeCountries.length; i++){
   console.log(largeCountries[i])
 }
 
-push("tuvalu")
 
+
+let day= 23
+let weekDay = "friday"
+
+if (day===23 && weekDay === "friday"){
+  console.log("😱")
+}
